@@ -12,7 +12,7 @@
     "clean": true
   },
   "scripts": {
-    "build": "tsup",
+    "build": "tsc",
     "start": "node dist/server.js",
     "dev": "tsx src/server.ts",
     "prod": "pnpm run build && pnpm start",
