@@ -25,11 +25,11 @@
       "paths": {
         "@/*": ["./src/*"]
       }
-      // "baseUrl": "src",
-      // "paths": {
-      //   "@/*": ["./*"]
-      // },
-      // "rootDir": "src"
+      "baseUrl": "src",
+      "paths": {
+        "@/*": ["./*"]
+     },
+      "rootDir": "src"
     },
     "exclude": ["node_modules"],
     "include": ["./src/**/*.ts"]
