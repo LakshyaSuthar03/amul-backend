@@ -1,4 +1,4 @@
-{
+ver{
   "version": 2,
   "builds": [
     {
@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/index.ts"
+      "dest": "/api/server.ts"
     }
   ]
 }
