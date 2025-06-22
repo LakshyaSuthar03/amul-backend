@@ -128,6 +128,7 @@ if (process.env.VERCEL !== '1') {
     }
   })();
 }
+const handler = (req: any, res: any) => app(req, res);
 
-module.exports = app;
-export default app;
+module.exports = handler;
+export default handler;
