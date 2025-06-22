@@ -1,10 +1,5 @@
 {
-  "functions": {
-    "api/index.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "routes": [
-    { "src": "/(.*)", "dest": "src/server.ts" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/src/server.ts" }
   ]
 }

@@ -3,14 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "tsup": {
-    "entry": [
-      "src/server.ts"
-    ],
-    "splitting": false,
-    "sourcemap": true,
-    "clean": true
-  },
+  
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
@@ -19,7 +12,9 @@
     "type-check": "tsc --noEmit",
     "migrate-telegram-username": "tsx src/scripts/migrate-telegram-username.ts",
     "check-products": "tsx src/scripts/check-products.ts",
-    "activate-products": "tsx src/scripts/activate-products.ts"
+    "activate-products": "tsx src/scripts/activate-products.ts",
+    "vercel-build":"echo hello"
+    
   },
   "keywords": [],
   "author": "",
