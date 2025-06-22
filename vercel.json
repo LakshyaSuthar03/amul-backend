@@ -1,15 +1,10 @@
 {
   "version": 2,
+  "name": "amul-backend",
   "builds": [
-    {
-      "src": "src/server.ts",
-      "use": "@vercel/node"
-    }
+      { "src": "src/server.ts", "use": "@now/node" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "src/server.ts"
-    }
+      { "src": "/(.*)", "dest": "src/server.ts" }
   ]
 }
